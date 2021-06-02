@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<style>
+           body {
+			font-family: Arial;
+			padding: 10px;
+			background: #80ffff;
+			align:center;
+			
+			}
+			p{
+			font-weight:bold;
+			}
+			.a{
+			font-weight:bold;
+			}
+			#start{
+			display:none;}
+
+			
+</style>
+</head>
+<body>
+		<div class="header">
+		<img src="F2.png" width="1250" height="400">
+	</div>
+	
+	<div class="navbar">
+		<a href="..\home\home.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Location 
+				<i class="fa fa-caret-down"></i>
+			</button>
+		<div class="dropdown-content">
+			<a href="..\location\Mirissa\mirissa.html">Mirissa</a>
+			<a href="..\location\Hikkaduwa\Hikkaduwa.html">Hikkaduwa</a>
+			<a href="..\location\Ella\Ella.html">Ella</a>
+		</div>
+		</div> 
+		<a href="..\Products\card.html">Shop</a>
+		<a href="..\feedback\feedback.html">Feedback</a>
+		<a href="..\quiz\quiz.html">Quiz</a>
+		<a href="..\About us\aboutus.html">About us</a>
+	</div>
+
+
+
+<form>
+        
+	    <img src="quiz.png" width="250" height="150" align="center";><p>You have 4 minutes to finish the Quiz</p><br><br>
+		
+		<label id ="q1" class="a">Question 1 .</label><label id ="1"></label><img src="q1.jpg" width="450" height="1300" align="right";>
+		<p>Going on a tour inside the own country is called ?</p>
+		<input type="radio" name="q1" id="c11" value="1"><label for ="c11">Domestic Tour .</label>
+		<input type="radio" name="q1" id="c12" value="2"><label for ="c12">Leisure Travel .</label>
+		<input type="radio" name="q1" id="c13" value="3"><label for ="c13">Inbound Tour .</label>
+		<input type="radio" name="q1" id="c14" value="4"><label for ="c14">Outbound Tour .</label><br><br>
+		<br>
+		<label id ="q2" class="a">Question 2 .</label><label id ="2"></label>
+		<p>In which District Hikkaduwa is situated ?</p>
+		<input type="radio" name="q2" id="c21" value="1"><label for ="c21">Galle District .</label>
+		<input type="radio" name="q2" id="c22" value="2"><label for ="c22">Matara District .</label>
+		<input type="radio" name="q2" id="c23" value="3"><label for ="c23">Kalutara District .</label>
+		<input type="radio" name="q2" id="c24" value="4"><label for ="c24">Gampaha District .</label><br><br>
+		<br>
+		<label id ="q3" class="a">Question 3 .</label><label id ="3"></label>
+		<p>Elevation of ella above the sea level ?</p>
+		<input type="radio" name="q3" id="c31" value="1"><label for ="c31">1100m .</label>
+		<input type="radio" name="q3" id="c32" value="2"><label for ="c32">1001m .</label>
+		<input type="radio" name="q3" id="c33" value="3"><label for ="c33">1041m .</label>
+		<input type="radio" name="q3" id="c34" value="4"><label for ="c34">1500m .</label><br><br>
+		<br>
+		<label id ="q4" class="a">Question 4	.</label><label id ="4"></label>
+		<p>In which year tourism startted in Mirissa ?</p>
+		<input type="radio" name="q4" id="c41" value="1"><label for ="c41">1950 .</label>
+		<input type="radio" name="q4" id="c42" value="2"><label for ="c42">1975 .</label>
+		<input type="radio" name="q4" id="c43" value="3"><label for ="c43">1920 .</label>
+		<input type="radio" name="q4" id="c44" value="4"><label for ="c44">1980 .</label><br><br>
+		<br>
+		<label id ="q5" class="a">Question 5	.</label><label id ="5"></label><br>
+		<p>In which Province Mirissa is situated ?</p>
+		<input type="radio" name="q5" id="c51" value="1"><label for ="c51">Southern Province .</label>
+		<input type="radio" name="q5" id="c52" value="2"><label for ="c52">Sabaragamuwa Province .</label>
+		<input type="radio" name="q5" id="c53" value="3"><label for ="c53">Uva Province .</label>
+		<input type="radio" name="q5" id="c54" value="4"><label for ="c54">Central Province .</label><br><br>
+		<br>
+		<label id ="q6" class="a">Question 6	.</label><label id ="6"></label><br>
+		<p>Which is the tallest Mountain in Srilanka ?</p>
+		<input type="radio" name="q6" id="c61" value="1"><label for ="c61">Adam's Peak .</label>
+		<input type="radio" name="q6" id="c62" value="2"><label for ="c62">Pidurutalagala .</label>
+		<input type="radio" name="q6" id="c63" value="3"><label for ="c63">Kirigalpota .</label>
+		<input type="radio" name="q6" id="c64" value="4"><label for ="c64">Mahakudagala .</label><br><br>
+		<br>
+		<label id ="q7" class="a">Question 7	.</label><label id ="7"></label><br>
+		<p>Which activity cannot be done in Hikkaduwa ?</p>
+		<input type="radio" name="q7" id="c71" value="1"><label for ="c71">Surfing .</label>
+		<input type="radio" name="q7" id="c72" value="2"><label for ="c72">Glass Boat Ride .</label>
+		<input type="radio" name="q7" id="c73" value="3"><label for ="c73">Turtle watching .</label>
+		<input type="radio" name="q7" id="c74" value="4"><label for ="c74">Hiking .</label><br><br>
+		<br>
+		<label id ="q8" class="a">Question 8	.</label><label id ="8"></label><br>
+		<p>Tourist spot that offers Whale watching ?</p>
+		<input type="radio" name="q8" id="c81" value="1"><label for ="c81">Mirissa .</label>
+		<input type="radio" name="q8" id="c82" value="2"><label for ="c82">Hikkaduwa .</label>
+		<input type="radio" name="q8" id="c83" value="3"><label for ="c83">Colombo .</label>
+		<input type="radio" name="q8" id="c84" value="4"><label for ="c84">Ella .</label><br><br>
+		<br>
+		<label id ="q9" class="a">Question 9	.</label><label id ="9"></label><br>
+		<p>Which is the longest river in Srilanka ?</p>
+		<input type="radio" name="q9" id="c91" value="1"><label for ="c91">Kala Oya .</label>
+		<input type="radio" name="q9" id="c92" value="2"><label for ="c92">Kelani River .</label>
+		<input type="radio" name="q9" id="c93" value="3"><label for ="c93">Maha Oya .</label>
+		<input type="radio" name="q9" id="c94" value="4"><label for ="c94">Mahaweli River .</label><br><br>
+		<br>
+		<label id ="q10" class="a">Question 10 .</label><label id ="10"></label><br>
+		<p>What is the best season to visit Hikkaduwa ?</p>
+		<input type="radio" name="q10" id="c101" value="1"><label for ="c101">November and March .</label>
+		<input type="radio" name="q10" id="c102" value="2"><label for ="c102">January and July .</label>
+		<input type="radio" name="q10" id="c103" value="3"><label for ="c103">April and October .</label>
+		<input type="radio" name="q10" id="c104" value="4"><label for ="c104">June and December .</label><br><br>
+		<br>	
+		<br>	
+		    <button type="Button" id="submitanswers" > Submit Answers </button><br>
+			
+			<p id ="totalScore"></p>
+			<p id ="time"></p>
+		
+	</form>
+	
+	
+     <div class="footer">
+	 
+	  <h2>TRAVEL | LIVE | LOVE | LOST</h2>
+	  
+	  <button class="f-button"><a href="" >Back to top</a></button>
+	  <button class="f-button"><a href="..\editors Page\page editor Jenoshon.html" >Page editor</a></button>
+	  <h3 align="right";>Follow Us</h3>
+	    <img src="pici.png" width="30" height="30" align="right";>
+		<img src="picfb.png" width="30" height="30" align="right";>
+		<img src="pict.png" width="30" height="30" align="right";>
+	</div>   
+ 
+<script>
+	function radioValue(radioArray){
+	var i;
+	for (i=0; i<radioArray.length; i++){
+	if(radioArray[i].checked){
+		return radioArray[i].value;
+		}
+	}
+	return "";
+	}
+	var timer=window.setTimeout("submitanswers()",240000);
+	var sTime = new Date();
+	document.getElementById("submitanswers").addEventListener("click",submitanswers)
+	
+	function submitanswers(){
+	window.clearTimeout(timer);
+	var eTime =new Date();
+	var totTime = eTime-sTime;
+	
+	var mark;
+	var correct=0;
+	var incorrect=0;
+	var Answer1= radioValue(document.getElementsByName("q1")); 
+	if (Answer1 == "1"){
+	         correct ++;
+			 document.getElementById("1").innerHTML="&#10004";
+		}else{	
+			incorrect ++;
+			 document.getElementById("1").innerHTML="&#x2718";
+		}
+	
+	var Answer2 =radioValue(document.getElementsByName("q2"));	
+	if(Answer2 =="1"){
+		correct ++;
+		document.getElementById("2").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("2").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer3 =radioValue(document.getElementsByName("q3"));
+	if(Answer3 =="3"){
+		correct ++;
+		document.getElementById("3").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("3").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer4 =radioValue(document.getElementsByName("q4"));
+	  if(Answer4 =="4"){
+		correct ++;
+		document.getElementById("4").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("4").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer5 =radioValue(document.getElementsByName("q5"));
+	  if(Answer5 =="1"){
+		correct ++;
+		document.getElementById("5").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("5").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer6 =radioValue(document.getElementsByName("q6"));
+	  if(Answer6 =="2"){
+		correct ++;
+		document.getElementById("6").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("6").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer7 =radioValue(document.getElementsByName("q7"));
+	  if(Answer7 =="4"){
+		correct ++;
+		document.getElementById("7").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("7").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer8 =radioValue(document.getElementsByName("q8"));
+	  if(Answer8 =="1"){
+		correct ++;
+		document.getElementById("8").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("8").innerHTML="&#x2718";
+	  }
+	
+	var Answer9 =radioValue(document.getElementsByName("q9"));
+	  if(Answer9 =="4"){
+		correct ++;
+		document.getElementById("9").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("9").innerHTML="&#x2718";
+	  }
+	 
+	 var Answer10 =radioValue(document.getElementsByName("q10"));
+	  if(Answer10 =="1"){
+		correct ++;
+		document.getElementById("10").innerHTML="&#10004";
+	  }else {
+			incorrect ++;
+			document.getElementById("10").innerHTML="&#x2718";
+	  }
+	  mark=((correct)*2)-incorrect;
+	  document.getElementById("totalScore").innerHTML="Your total Marks is : "+mark;
+	  document.getElementById("time").innerHTML="You have finished the Quiz in "+totTime/1000+" seconds";
+	  if (mark>16){
+	     document.body.style.backgroundColor= "#a6ff4d";
+	  }else if(mark<16 && mark>8) {
+		  document.body.style.backgroundColor= "#ffa64d";
+	  }else{document.body.style.backgroundColor= "#ff5c33";
+	  }
+	  if(totTime<240001){
+	  document.getElementById("time").innerHTML="You have finished the Quiz in "+totTime/1000+" seconds";
+	  }else{alert("Your time is over try again")
+	  }
+     
+	}	
+	
+	  
+   </script>
+</body>
+</html>

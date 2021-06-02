@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>Feedback form</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+  * {
+    box-sizing: border-box;
+}
+	
+
+
+
+input[type=text], [type=phone],  select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	border-radius: 10px;
+	opacity: .7;
+}
+
+.button2 {
+    background-color: black;
+	margin-top: 8px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+	margin-right: 130px;
+	margin-top: 30px;
+}
+
+
+
+
+.main {
+	font-family: Arial;
+	display:block;
+	overflow:hidden;
+	width:1024px;
+	margin:auto;
+	margin-top: 0;
+	padding-top:0;
+	padding-bottom:20px;
+	margin-top: 20px;
+	border-radius: 20px;
+	border: 0;
+	padding: 20px;
+	background-color: #d9d9d9;
+	
+}
+
+
+
+#contact{
+ float: left;
+ margin-left: 250px;
+	margin-top: -5px;
+} 
+
+
+
+  </style>
+
+  </head>
+  
+  
+  
+  <body>
+  
+	
+	<div class="header">
+		<img src="F2.png" width="1250" height="400">
+	</div>
+<div class="navbar">
+		<a href="..\home\home.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Location 
+				<i class="fa fa-caret-down"></i>
+			</button>
+		<div class="dropdown-content">
+			<a href="..\location\Mirissa\mirissa.html">Mirissa</a>
+			<a href="..\location\Hikkaduwa\Hikkaduwa.html">Hikkaduwa</a>
+			<a href="..\location\Ella\Ella.html">Ella</a>
+		</div>
+		</div> 
+		<a href="..\Products\card.html">Shop</a>
+		<a href="..\feedback\feedback.html">Feedback</a>
+		<a href="..\quiz\quiz.html">Quiz</a>
+		<a href="..\About us\aboutus.html">About us</a>
+	</div>
+
+				
+	 
+			
+			
+			<div class="main">
+			
+		
+		<div class="feedback">
+		<h1>FEED BACK FORM</h1>
+		<form id="feedback" onSubmit="feedbackform()">
+		
+			
+			
+			<label>Name :</label>
+			<input type="text" id="name" name ="name"></br>
+			<label>Address :</label>
+			<input type="text" id="address" name ="address"></br>
+			<label>Email Address:</label>
+			<input type="text" id="email address"  name ="email address"></br>
+			<label>Phone No	:</label>
+			<input type="text" id="phone"  name ="phone"></br>
+			<label>Comment :<textarea name="comment" id="comment" ></textarea></label></br>
+			<label>Rate this Travel site : </label>
+			<label><select id="rate" name="rate" >
+			  <option value="excellent">Excellent</option>
+			  <option value="very good">Very Good</option>
+			  <option value="good">Good</option>
+			  <option value="average">Average</option>
+			  <option value="bad">Bad</option>
+			  
+			</select></label>
+			
+		</br></br>
+		<button class="button2"><input type="submit" value="Submit"></button>
+		
+		</form>		
+	</div> 
+
+	<script>
+
+function feedbackform(){
+	var x = document.forms["feedback"]["name"].value;
+			if (x=="") {
+				alert("Enter the name");
+				return false;
+}
+	var x = document.forms["feedback"]["address"].value;
+			if (x=="") {
+				alert("Enter the address");
+				return false;
+}
+	var x = document.forms["feedback"]["email address"].value;
+			if (x=="") {
+				alert("Enter the email address");
+				return false;
+}
+	var x = document.forms["feedback"]["phone"].value;
+			if (x=="") {
+				alert("Enter the phone no");
+				return false;
+}
+	var x = document.forms["feedback"]["rate"].value;
+			if (x=="") {
+				alert("Enter the rate");
+				return false;
+}
+	var x = document.forms["feedback"]["comment"].value;
+			if (x=="") {
+				alert("Add some comment for our customer services");
+				return false;
+}
+	else{
+				var name = document.forms["feedback"]["name"].value;
+				var rate = document.forms["feedback"]["rate"].value;
+				var comment = document.forms["feedback"]["comment"].value;
+				alert("Dear "+name+", Thank you very much for your feedback. You have rated our site as "+rate+" and your comment was "+comment+ ".Have a nice day!");
+			}
+		}													
+	</script>
+	
+			
+			
+			</div> 
+			
+</div>
+		
+			
+<div class="footer">
+	 
+	  <h2>TRAVEL | LIVE | LOVE | LOST</h2>
+	  
+	  <button class="f-button"><a href="" >Back to top</a></button>
+	  <button class="f-button"><a href="..\editors Page\page editor baveega.html"" >Page editor</a></button>
+	  <h3 align="right";>Follow Us</h3>
+	    <img src="pici.png" width="30" height="30" align="right";>
+		<img src="picfb.png" width="30" height="30" align="right";>
+		<img src="pict.png" width="30" height="30" align="right";>
+	</div>
+			
+		
+		</div>  
+	
+	  
+  </body>
+  
+</html>

@@ -1,0 +1,46 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #00e6b8;
+  color: black;
+}
+
+body{
+	 background-image:url("editor bg.jpg");
+	 background-repeat:no-repeat;
+	 background-size:100% ;
+}
+
+h1{text-align:center;}
+	#nested{padding-left:5%;}
+
+
+.mainpage{
+	font-weight: bold;
+	color: #000000;
+	
+	font-size:40px;
+	font-family: MV Boli;
+}

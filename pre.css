@@ -1,0 +1,38 @@
+body{
+	 background-image:url(P1.jpg);
+	 background-repeat:no-repeat;
+	 background-size:100% ;
+}
+
+.presentation{
+	visibility:hidden; 
+	height:200px; 
+	width=350px;
+	text-align:center;
+}
+
+div.transbox {
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0.6;
+  width: 50%;
+  text-align:center;
+  border: 10px solid black;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align:center;
+  font-size:40px;
+  font-family: MV Boli;
+}
+
+.Heading{
+	text-align:center;
+	font-size:30px;
+	font-family: Brush Script MT;
+	color:white;
+	height:100px; 
+	}

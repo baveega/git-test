@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Presentation page</title>
+		<link rel = "stylesheet" type="text/css" href="pre.css">
+			<script> <!-- function for the display of presentation page for 4s  -->
+				function show()
+				{
+					document.getElementById("presentation").style.visibility="visible";
+				}
+					setTimeout("show()");
+					function hide()
+				{
+					document.getElementById("presentation").style.visibility="hidden";
+				}
+					setTimeout("hide()",6000);
+			</script>
+
+	</head>
+	<body>
+			<center>
+				<img src="mainlogo.png" width="350" height="200" >
+			</center>
+			
+			
+			<div class = "Heading">
+				<h2> Welcome To Our Pearl of the Indian Ocean! </h2>
+			</div>
+				
+				
+			 <div id = "presentation" style = "visibility:hidden;" class= transbox>
+				<p><b>Murugananthagopal Jenoshanan</b></p>
+				<p>Baveega kuganesan</p>
+				<p>Aarany Sivanathan</p>
+			 </div>
+			 
+			 
+	 <script>
+		setTimeout(function () {
+				window.location.href = 'home.html';	<!-- connecting presentation page to home page -->
+			}, 5000);
+	</script>
+	
+	</body>
+</html>
